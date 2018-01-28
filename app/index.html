@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>全民首富</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/swiper.min.css">
+</head>
+
+<body>
+    <div class="network-loading hidden">
+        <div>加载中</div>
+    </div>
+    <div class="preload hidden">
+        <script type="text/javascript">
+        var cdn = "/" //"http://billionaire.b0.upaiyun.com/";
+        var images = new Array()
+
+        function preload() {
+            for (i = 0; i < preload.arguments.length; i++) {
+                images[i] = new Image();
+                images[i].src = cdn + preload.arguments[i]
+            }
+        }
+        preload(
+            'images/btn-shangye-normal.png',
+            'images/btn-shangye-press.png',
+            'images/btn-daoju-normal.png',
+            'images/btn-daoju-press.png',
+            'images/btn-shangdian-normal.png',
+            'images/btn-shangdian-press.png',
+            'images/btn-paihangbang-normal.png',
+            'images/btn-paihangbang-press.png',
+            'images/btn-xingxi-normal.png',
+            'images/new.png',
+            'images/btn-xingxi-press.png',
+            'images/btn-dibiao-normal.png',
+            'images/btn-dibiao-press.png',
+            'images/btn_huodong_normal.png',
+            'images/btn_huodong_press.png',
+            'images/btn_tixing_02.png',
+            'images/btn_tixing_01.png',
+            'images/full.png',
+            'images/qianzhuzi.png',
+            'images/qianzhezhao.png',
+            'images/qian3.png',
+            'images/qianv2.png',
+            'images/btn_sale_normal.png',
+            'images/btn_sale_press.png',
+            'images/btn_upgrade_normal.png',
+            'images/btn_upgrade_press.png',
+            'images/lvl.png',
+            'images/btn_shouhuo_normal.png',
+            'images/btn_shouhuo_press.png',
+            'images/btn_shouhuo2_normal.png',
+            'images/biaoqian.png',
+            'images/btn_add_narmal.png',
+            'images/add_bg.png',
+            'images/text.png',
+            'images/left.png',
+            'images/right.png',
+            'images/whitechacha.png',
+            'images/chacha.png',
+            'images/sale.png',
+            'images/up_small.png',
+            'images/money.png',
+            'images/up.png',
+            'images/down.png',
+            'images/xiaoqizi.png',
+            'images/money2.png',
+            'images/icon_chengjiu.png',
+            'images/icon_dibiao.png',
+            'images/icon_shangcheng.png',
+            'images/xiaoqizhi-red.png',
+            'images/icon_xinxi.png',
+            'images/icon_daoju.png',
+            'images/diamond.png',
+            'images/icon-shoufu.png',
+            'images/icon-dierming.png',
+            'images/icon-disanming.png',
+            'images/gongdi.png',
+            'images/people1.png',
+            'images/people2.png',
+            'images/people3.png',
+            'images/people5.png',
+            'images/people4.png',
+            'images/driving1.png',
+            'images/watu2.png',
+            'images/watu3.png',
+            'images/watu1.png',
+            'images/btn_shou.png',
+            'images/zhangai.png',
+            'images/kuaijin.png',
+            'images/diamond.png'
+        )
+        </script>
+    </div>
+    <div id="app"></div>
+</body>
+<script>
+var log = function(input) {
+    console.info(input);
+}
+var hostUrl = "/logic";
+var activeBuildingIndex = 0;
+var topTouchEnable = true;
+var gameData = {
+    "new_message": true,
+    "complete_activity": true,
+    "user_info": {
+        "province": "\u5e7f\u4e1c",
+        "openid": "oucnUjuGnJ6GHLlSjm7m9_X5NQKI",
+        "nick_name": "梁宁聪",
+        "invite_id": "oucnUjuGnJ6GHLlSjm7m9_X5NQKI",
+        "rank": 21,
+        "vip_exper": 0,
+        "pic_link": "https://wx.qlogo.cn/mmopen/vi_32/loIia58fFOsxZLiaLlEJmRWIpw8p0sODb5R3Q4GuIXoicrIV6ZYHhTJl1TicMSpFwnyhvkVIGcdcQAbCUuz4yzz7fA/0"
+    },
+    "score_info": {
+        "crystal": 1000,
+        "worth": 199000,
+        "threat": -180.1,
+        "cash": 1023000000
+    },
+    "props": [{
+        "tap_speed": 1.5
+    }],
+    "building_info": [],
+    "js_api": {
+        "timestamp": 1444725439,
+        "nonceStr": "gzKhZfSwJ308vNDY",
+        "appId": "wxfcece957993d049e",
+        "jsApiList": ["onMenuShareTimeline", "onMenuShareAppMessage"],
+        "signature": "3ca1820dbf9d5f5b703d90f7a4e6f3a7af0df90b"
+    },
+    "punishment": {}
+};
+for (var i = 0; i < gameData.building_info.length; i++) {
+    gameData.building_info[i].id = gameData.building_info[i].building_id
+}
+</script>
+<script src="scripts/lib/zepto.js"></script>
+<script src="scripts/lib/touch.js"></script>
+<script src="scripts/lib/swiper.jquery.js"></script>
+<script src="scripts/lib/iscroll-lite.js"></script>
+<script src="scripts/lib/countUp.js"></script>
+<script src="scripts/lib/polyfill-raf.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="scripts/app.js"></script>
+<script src="http://sdk.talkingdata.com/g/h5/v1/6C476CFE95573DC280963128514A15E6" type="text/javascript"></script>
+<script>
+TDGA.Account({
+    accountId: gameData.user_info.openid,
+    accountName: gameData.user_info.nick_name,
+    level: 1,
+    accountType: 1
+});
+</script>
+
+</html>

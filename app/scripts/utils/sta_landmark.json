@@ -1,0 +1,62 @@
+{
+    "1": {
+        "coldtime": 900, 
+        "diamond": 0, 
+        "id": 1, 
+        "income": 1300000, 
+        "maxincome": 30000000, 
+        "money": 60000000, 
+        "name": "广州塔", 
+        "pic": "guangzhouta"
+    }, 
+    "2": {
+        "coldtime": 900, 
+        "diamond": 3000, 
+        "id": 2, 
+        "income": 1500000, 
+        "maxincome": 25000000, 
+        "money": 0, 
+        "name": "东方明珠", 
+        "pic": "dongfangmingzhu"
+    }, 
+    "3": {
+        "coldtime": 900, 
+        "diamond": 2800, 
+        "id": 3, 
+        "income": 900000, 
+        "maxincome": 25000000, 
+        "money": 0, 
+        "name": "地王大厦", 
+        "pic": "diwangguangchang"
+    }, 
+    "4": {
+        "coldtime": 900, 
+        "diamond": 3300, 
+        "id": 4, 
+        "income": 1700000, 
+        "maxincome": 30000000, 
+        "money": 0, 
+        "name": "中国尊", 
+        "pic": "zhongguozun"
+    }, 
+    "5": {
+        "coldtime": 900, 
+        "diamond": 4000, 
+        "id": 5, 
+        "income": 2000000, 
+        "maxincome": 50000000, 
+        "money": 0, 
+        "name": "香港国际金融中心", 
+        "pic": "guojijinrongzhongxin"
+    }, 
+    "6": {
+        "coldtime": 900, 
+        "diamond": 4000, 
+        "id": 6, 
+        "income": 1800000, 
+        "maxincome": 40000000, 
+        "money": 0, 
+        "name": "101大厦", 
+        "pic": "101dasha"
+    }
+}
