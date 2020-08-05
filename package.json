@@ -6,7 +6,7 @@
     "start": "npx gulp server"
   },
   "dependencies": {
-    "fastify": "^0.39.1",
+    "fastify": "^2.15.1",
     "fastify-formbody": "^1.2.3",
     "fastify-static": "^0.6.0",
     "flux": "^2.1.1",
