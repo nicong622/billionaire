@@ -42,7 +42,7 @@
     "gulp-util": "~3.0.1",
     "gulp-webserver": "latest",
     "main-bower-files": "^2.13.1",
-    "react": "0.13.3",
+    "react": "0.14.0",
     "react-tools": "latest",
     "reactify": "latest",
     "strip-debug": "^1.0.1",
